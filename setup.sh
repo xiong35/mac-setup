@@ -31,3 +31,4 @@ curl -o- https://raw.githubusercontent.com/xiong35/mac-setup/main/.zshrc > ~/.zs
 echo "TODO: download maccy, a clipboard manager -- https://github.com/p0deje/Maccy/releases"
 echo "TODO: download iterm2  -- https://iterm2.com/downloads.html"
 echo "TODO: follow the instruction here to set this theme and etc  -- https://github.com/nicolashery/mac-dev-setup#iterm2"
+echo "TODO: download toolbar plugin: -- https://github.com/iglance/iGlance"
