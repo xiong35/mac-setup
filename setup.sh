@@ -28,7 +28,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 echo "set up zsh"
 curl -o- https://raw.githubusercontent.com/xiong35/mac-setup/main/.zshrc > ~/.zshrc
 
+echo "install hidden bar"
+brew install --cask hiddenbar
+
 echo "TODO: download maccy, a clipboard manager -- https://github.com/p0deje/Maccy/releases"
 echo "TODO: download iterm2  -- https://iterm2.com/downloads.html"
 echo "TODO: follow the instruction here to set this theme and etc  -- https://github.com/nicolashery/mac-dev-setup#iterm2"
 echo "TODO: download toolbar plugin: -- https://github.com/iglance/iGlance"
+echo "TODO: download ShiftIt -- https://github.com/fikovnik/ShiftIt"
