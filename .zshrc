@@ -110,3 +110,16 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+if command -v pyenv 1>/dev/null 2>&1; then eval "$(pyenv init -)"; fi
+
+# eval $(thefuck --alias f)
+
+PROMPT='%{$fg[yellow]%}[%*] '$PROMPT
+
+alias hi="history -t'%F %T'"
+alias g="git commit -m"
+
+# pnpm
+# export PNPM_HOME="/Users/xiong35/Library/pnpm" # FIXME
+# export PATH="$PNPM_HOME:$PATH"
+# pnpm end
