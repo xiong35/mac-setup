@@ -25,6 +25,9 @@ curl -o- https://raw.githubusercontent.com/rupa/z/master/z.sh > ~/.z.sh
 # zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
+echo "install nvm plugin"
+git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
+
 echo "set up zsh"
 curl -o- https://raw.githubusercontent.com/xiong35/mac-setup/main/.zshrc > ~/.zshrc
 
