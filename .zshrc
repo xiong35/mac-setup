@@ -118,6 +118,9 @@ if command -v pyenv 1>/dev/null 2>&1; then eval "$(pyenv init -)"; fi
 PROMPT='%{$fg[yellow]%}[%*] '$PROMPT
 
 alias g="git commit -m"
+alias gs="git switch"
+# git branch -vv | cut -c 3- | awk '$3 !~/\[/ { print $1 }'
+alias my-branches='git branch -vv | cut -c 3- | awk '"'"'$3 !~/\[/ { print $1 }'"'"''
 
 # pnpm
 export PNPM_HOME="/Users/xiong35/Library/pnpm" # TODO
