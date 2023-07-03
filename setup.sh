@@ -39,3 +39,5 @@ echo "TODO: download iterm2  -- https://iterm2.com/downloads.html"
 echo "TODO: follow the instruction here to set this theme and etc  -- https://github.com/nicolashery/mac-dev-setup#iterm2"
 echo "TODO: download toolbar plugin: -- https://github.com/iglance/iGlance"
 echo "TODO: download ShiftIt -- https://github.com/fikovnik/ShiftIt"
+echo "TODO: download go2shell -- https://github.com/Breathleas/Go2Shell"
+
